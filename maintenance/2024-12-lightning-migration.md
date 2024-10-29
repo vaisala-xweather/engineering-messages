@@ -108,7 +108,7 @@ This service disruption will only affect users connected to a single data center
 
 Thank you for verifying your configuration and ensuring that upstream data sources are accessible by your systems. If you have any questions, don’t hesitate to reach out, and we can assist you with any questions or changes you may need to make.
 
-<a href=mailto:support@xweather.com>Email: support@xweather.com</a>
+<a href="mailto:support@xweather.com">Email: support@xweather.com</a>
 
 [Open a Support Ticket](https://www.xweather.com/support/ticket)
 
