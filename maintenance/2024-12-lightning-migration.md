@@ -1,3 +1,8 @@
+---
+title: "Maintenance: 2024-12 Lightning"
+layout: sub-page
+---
+
 # ACTION REQUIRED for Lightning Data Customers
 
 Upcoming planned maintenance will be performed on December 11th, 2024, at one of our data centers. We ask that you take action by the start of December to ensure minimal service disruption. A follow-up maintenance window will be created with more details as we get closer to the maintenance and will be communicated via our status page and notifications.
