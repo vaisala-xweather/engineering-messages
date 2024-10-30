@@ -1,6 +1,7 @@
-# Dev Static
+# Engineering Messages
 
-Just a quick static site repo for us to host static messaging publicly.
+Vaisala Xweather Engineering teams need a space to post maintenance messages and
+other direct-to-user messaging.
 
 ## Maintenance
 
