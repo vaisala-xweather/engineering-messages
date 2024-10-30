@@ -1,0 +1,109 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+$primary: #0A2A3D;
+$primary-light: #2B6EA1;
+$primary-dark: #0E1F2C;
+$secondary: #4ED9C2;
+$secondary-light: #AAF0E4;
+$secondary-dark: #259C86;
+$mono-light: #9caab8;
+$mono-dark: #0d131a;
+$font-light: #FFFFFF;
+$accent-1: #DBF93A;
+$accent-2: #FB6432;
+
+
+@font-face {
+	font-family: 'Vaisala Sans';
+	src: url('https://www.xweather.comhttps://www.xweather.com/assets/fonts/VaisalaSans-Thin.woff') format('woff2 supports variations'), url('https://www.xweather.com/assets/fonts/VaisalaSans-Thin.woff2') format('woff2-variations');
+	font-weight: 100;
+}
+
+@font-face {
+	font-family: 'Vaisala Sans';
+	src: url('https://www.xweather.com/assets/fonts/VaisalaSans-Light.woff') format('woff2 supports variations'), url('https://www.xweather.com/assets/fonts/VaisalaSans-Light.woff2') format('woff2-variations');
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: 'Vaisala Sans';
+	src: url('https://www.xweather.com/assets/fonts/VaisalaSans-Regular.woff') format('woff2 supports variations'), url('https://www.xweather.com/assets/fonts/VaisalaSans-Regular.woff2') format('woff2-variations');
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'Vaisala Sans';
+	src: url('https://www.xweather.com/assets/fonts/VaisalaSans-Medium.woff') format('woff2 supports variations'), url('https://www.xweather.com/assets/fonts/VaisalaSans-Medium.woff2') format('woff2-variations');
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: 'Vaisala Sans';
+	src: url('https://www.xweather.com/assets/fonts/VaisalaSans-Bold.woff') format('woff2 supports variations'), url('https://www.xweather.com/assets/fonts/VaisalaSans-Bold.woff2') format('woff2-variations');
+	font-weight: 700;
+}
+
+body {
+    font-family: 'Vaisala Sans', sans-serif;
+    background: $primary-dark;
+    color: $font-light;
+}
+
+a, a:visited {
+    color: $secondary-light;
+    text-decoration: underline;
+}
+
+footer {
+    display: block;
+    padding: 5rem 6rem;
+
+    background: $primary;
+
+    border-top: none;
+    text-align: center;
+
+    a {
+        padding: 0.5em;
+    }
+}
+
+a:hover {
+    color: $font-light;
+}
+
+.page-header {
+    background: $primary;
+}
+
+.main-content h1 {
+    color: $accent-2;
+}
+
+.main-content h2 {
+    color: $accent-1;
+}
+
+.main-content h3 {
+    color: $font-light;
+    font-weight: 800;
+}
+
+img.company-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+    height: 2em;
+}
+
+@media screen and (min-width: 64em) {
+    img.company-logo {
+        display: block;
+        height: 3em;
+        float: left;
+    }
+}

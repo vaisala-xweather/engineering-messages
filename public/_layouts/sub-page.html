@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="apple-touch-icon" sizes="57x57" href="//xweather.com/apple-icon-57x57.png"/>
+    <link rel="apple-touch-icon" sizes="60x60" href="//xweather.com/apple-icon-60x60.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="//xweather.com/apple-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="76x76" href="//xweather.com/apple-icon-76x76.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="//xweather.com/apple-icon-114x114.png"/>
+    <link rel="apple-touch-icon" sizes="120x120" href="//xweather.com/apple-icon-120x120.png"/>
+    <link rel="apple-touch-icon" sizes="144x144" href="//xweather.com/apple-icon-144x144.png"/>
+    <link rel="apple-touch-icon" sizes="152x152" href="//xweather.com/apple-icon-152x152.png"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="//xweather.com/apple-icon-180x180.png"/>
+    <link rel="icon" type="image/png" sizes="192x192" href="//xweather.com/android-icon-192x192.png"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="//xweather.com/favicon-32x32.png"/>
+    <link rel="icon" type="image/png" sizes="96x96" href="//xweather.com/favicon-96x96.png"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="//xweather.com/favicon-16x16.png"/>
+    <link rel="icon" href="/favicon.8846634a.ico"/>
+    {% include head-custom.html %}
+  </head>
+  <body>
+    <a id="skip-to-content" href="#content">Skip to the content.</a>
+
+    <header class="page-header" role="banner">
+      <img class="company-logo" src="/assets/images/xweather-logo-main-nega.svg" />
+      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+    </header>
+
+    <main id="content" class="main-content" role="main">
+      {{ content }}
+    </main>
+    <footer>
+      <span class="copyright">© 2024 Vaisala</span>
+      <a href="https://www.xweather.com/terms">Terms of Service</a>
+      <a href="https://www.xweather.com/privacy">Privacy Policy</a>
+    </footer>
+  </body>
+</html>
