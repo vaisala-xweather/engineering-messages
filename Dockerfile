@@ -12,4 +12,4 @@ RUN gem install bundler github-pages
 
 WORKDIR /site
 ENTRYPOINT [ "jekyll", "serve" ]
-CMD [ "--watch", "--incremental", "--source", "./public", "--port", "8000", "--host", "0.0.0.0" ]
+CMD [ "--watch", "--incremental", "--source", "./docs", "--port", "8000", "--host", "0.0.0.0" ]
