@@ -1,6 +1,5 @@
 ---
 ---
-
 @import "{{ site.theme }}";
 
 $primary: #0A2A3D;
@@ -17,48 +16,61 @@ $accent-2: #FB6432;
 
 
 @font-face {
-	font-family: 'Vaisala Sans';
-	src: url('https://www.xweather.comhttps://www.xweather.com/assets/fonts/VaisalaSans-Thin.woff') format('woff2 supports variations'), url('https://www.xweather.com/assets/fonts/VaisalaSans-Thin.woff2') format('woff2-variations');
-	font-weight: 100;
+    font-family: 'Vaisala Sans';
+    src: url('https://www.xweather.comhttps://www.xweather.com/assets/fonts/VaisalaSans-Thin.woff') format('woff2 supports variations'), url('https://www.xweather.com/assets/fonts/VaisalaSans-Thin.woff2') format('woff2-variations');
+    font-weight: 100;
 }
 
 @font-face {
-	font-family: 'Vaisala Sans';
-	src: url('https://www.xweather.com/assets/fonts/VaisalaSans-Light.woff') format('woff2 supports variations'), url('https://www.xweather.com/assets/fonts/VaisalaSans-Light.woff2') format('woff2-variations');
-	font-weight: 300;
+    font-family: 'Vaisala Sans';
+    src: url('https://www.xweather.com/assets/fonts/VaisalaSans-Light.woff') format('woff2 supports variations'), url('https://www.xweather.com/assets/fonts/VaisalaSans-Light.woff2') format('woff2-variations');
+    font-weight: 300;
 }
 
 @font-face {
-	font-family: 'Vaisala Sans';
-	src: url('https://www.xweather.com/assets/fonts/VaisalaSans-Regular.woff') format('woff2 supports variations'), url('https://www.xweather.com/assets/fonts/VaisalaSans-Regular.woff2') format('woff2-variations');
-	font-weight: 400;
+    font-family: 'Vaisala Sans';
+    src: url('https://www.xweather.com/assets/fonts/VaisalaSans-Regular.woff') format('woff2 supports variations'), url('https://www.xweather.com/assets/fonts/VaisalaSans-Regular.woff2') format('woff2-variations');
+    font-weight: 400;
 }
 
 @font-face {
-	font-family: 'Vaisala Sans';
-	src: url('https://www.xweather.com/assets/fonts/VaisalaSans-Medium.woff') format('woff2 supports variations'), url('https://www.xweather.com/assets/fonts/VaisalaSans-Medium.woff2') format('woff2-variations');
-	font-weight: 500;
+    font-family: 'Vaisala Sans';
+    src: url('https://www.xweather.com/assets/fonts/VaisalaSans-Medium.woff') format('woff2 supports variations'), url('https://www.xweather.com/assets/fonts/VaisalaSans-Medium.woff2') format('woff2-variations');
+    font-weight: 500;
 }
 
 @font-face {
-	font-family: 'Vaisala Sans';
-	src: url('https://www.xweather.com/assets/fonts/VaisalaSans-Bold.woff') format('woff2 supports variations'), url('https://www.xweather.com/assets/fonts/VaisalaSans-Bold.woff2') format('woff2-variations');
-	font-weight: 700;
+    font-family: 'Vaisala Sans';
+    src: url('https://www.xweather.com/assets/fonts/VaisalaSans-Bold.woff') format('woff2 supports variations'), url('https://www.xweather.com/assets/fonts/VaisalaSans-Bold.woff2') format('woff2-variations');
+    font-weight: 700;
+}
+
+html {
+    min-height: 100%;
+    position: relative;
 }
 
 body {
     font-family: 'Vaisala Sans', sans-serif;
     background: $primary-dark;
     color: $font-light;
+
+    padding-bottom: 12rem;
+    min-height: 100vh;
 }
 
-a, a:visited {
+a,a:visited {
     color: $secondary-light;
     text-decoration: underline;
 }
 
 footer {
     display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+
     padding: 5rem 6rem;
 
     background: $primary;
