@@ -1,13 +1,13 @@
 ---
-title: "Maintenance: 2024-12 Lightning"
+title: "Maintenance: 2025-01 Lightning"
 layout: sub-page
 ---
 
 # ACTION REQUIRED for Lightning Data Customers
 
-Upcoming planned maintenance will be performed on December 11th, 2024, at one of our data centers. We ask that you take action by the start of December to ensure minimal service disruption. A follow-up maintenance window will be created with more details as we get closer to the maintenance and will be communicated via our status page and notifications.
+Upcoming planned maintenance will be performed on January 15th, 2025, at one of our data centers. We ask that you take action by that time to ensure minimal service disruption.
 
-Significant downtime of this data center is expected. **Users who are connected, or who will fail over, to other data centers/methods will not see an interruption in service.** We ask that you verify your configuration and connection to ensure you are up to date with best practices before the maintenance to ensure you have no downtime.
+Several hours of periodic downtime of this data center is expected. **Users who are connected, or who will fail over, to other data centers/methods will not see an interruption in service.** We ask that you verify your configuration and connection to ensure you are up to date with best practices before the maintenance to ensure you have no downtime.
 
 ## SSH Real-Time Feed Users and Falls Client Users
 
